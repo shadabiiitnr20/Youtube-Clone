@@ -1,6 +1,6 @@
 import React, { useEffect, useState } from "react";
 import { YOUTUBE_VIDEO_API } from "../constants/constants";
-import VideoCard from "./VideoCard";
+import VideoCard, { AdVideoCard } from "./VideoCard";
 import { useSelector } from "react-redux";
 import { Link } from "react-router-dom";
 
@@ -20,6 +20,7 @@ const ContainerVideo = () => {
 
   return (
     <div className={`${isMenuOpen ? "ml-10" : "ml-[90px]"} flex flex-wrap`}>
+      <AdVideoCard info={videos[0]} />
       {videos.map((video) => {
         return (
           <Link key={video.id} to={"/watch?v=" + video.id}>

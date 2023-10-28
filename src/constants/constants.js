@@ -127,6 +127,8 @@ export const SIDE_BAR_CONTENT = [
   },
 ];
 
+export const OFFSET_LIVE_CHAT = 10;
+
 export const HAMBURGER_ICON =
   "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b2/Hamburger_icon.svg/2048px-Hamburger_icon.svg.png";
 export const YOUTUBE_ICON =
@@ -134,8 +136,93 @@ export const YOUTUBE_ICON =
 export const USER_ICON =
   "https://upload.wikimedia.org/wikipedia/commons/9/99/Sample_User_Icon.png";
 
-const GOOGLE_API_KEY = "Your API key";
+const GOOGLE_API_KEY = "Your API Key";
 
 export const YOUTUBE_VIDEO_API =
   "https://youtube.googleapis.com/youtube/v3/videos?part=snippet%2CcontentDetails%2Cstatistics&chart=mostPopular&maxResults=50&regionCode=IN&key=" +
   GOOGLE_API_KEY;
+
+export const YOUTUBE_SEARCH_API =
+  "http://suggestqueries.google.com/complete/search?client=firefox&ds=yt&q=";
+
+export const COMMENTS_DATA = [
+  {
+    name: "Shadab",
+    text: "Lorem ipsum dolar sent just kidding hello how are you??",
+    replies: [],
+  },
+  {
+    name: "Shadab",
+    text: "Lorem ipsum dolar sent just kidding hello how are you??",
+    replies: [
+      {
+        name: "Shadab",
+        text: "Lorem ipsum dolar sent just kidding hello how are you??",
+        replies: [
+          {
+            name: "Shadab",
+            text: "Lorem ipsum dolar sent just kidding hello how are you??",
+            replies: [
+              {
+                name: "Shadab",
+                text: "Lorem ipsum dolar sent just kidding hello how are you??",
+                replies: [
+                  {
+                    name: "Shadab",
+                    text: "Lorem ipsum dolar sent just kidding hello how are you??",
+                    replies: [],
+                  },
+                ],
+              },
+            ],
+          },
+          {
+            name: "Shadab",
+            text: "Lorem ipsum dolar sent just kidding hello how are you??",
+            replies: [],
+          },
+          {
+            name: "Shadab",
+            text: "Lorem ipsum dolar sent just kidding hello how are you??",
+            replies: [],
+          },
+        ],
+      },
+      {
+        name: "Shadab",
+        text: "Lorem ipsum dolar sent just kidding hello how are you??",
+        replies: [],
+      },
+      {
+        name: "Shadab",
+        text: "Lorem ipsum dolar sent just kidding hello how are you??",
+        replies: [],
+      },
+    ],
+  },
+  {
+    name: "Shadab",
+    text: "Lorem ipsum dolar sent just kidding hello how are you??",
+    replies: [],
+  },
+  {
+    name: "Shadab",
+    text: "Lorem ipsum dolar sent just kidding hello how are you??",
+    replies: [],
+  },
+  {
+    name: "Shadab",
+    text: "Lorem ipsum dolar sent just kidding hello how are you??",
+    replies: [],
+  },
+  {
+    name: "Shadab",
+    text: "Lorem ipsum dolar sent just kidding hello how are you??",
+    replies: [],
+  },
+  {
+    name: "Shadab",
+    text: "Lorem ipsum dolar sent just kidding hello how are you??",
+    replies: [],
+  },
+];
