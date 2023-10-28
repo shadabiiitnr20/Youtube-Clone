@@ -7,4 +7,4 @@
 2. Extract the zip file and open in Visual Studio Code.
 3. In Visual Studio Code, open the terminal and run the command "npm i" to install the   required dependencies.
 4. Run npm start
-5. Open "localhost:1234" in Chrome to access the site.
+5. Open "localhost:3000" in Chrome to access the site.
